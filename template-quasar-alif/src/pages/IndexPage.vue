@@ -1,11 +1,112 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
-  </q-page>
+  <div class="q-pa-md">
+    <div class="q-col-gutter-md row items-start">
+      <div class="col-4">
+        Ratio: 16/9
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="16/9"
+        />
+      </div>
+
+      <div class="col-4">
+        Ratio: 1
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="1"
+        />
+      </div>
+
+      <div class="col-4">
+        Ratio: 4/3
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="4/3"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="q-pa-md">
+    <div class="q-col-gutter-md row items-start">
+      <div class="col-4">
+        Ratio: 16/9
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="16/9"
+        />
+      </div>
+
+      <div class="col-4">
+        Ratio: 1
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="1"
+        />
+      </div>
+
+      <div class="col-4">
+        Ratio: 4/3
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="4/3"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="q-pa-md">
+    <div class="q-col-gutter-md row items-start">
+      <div class="col-4">
+        Ratio: 16/9
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="16/9"
+        />
+      </div>
+
+      <div class="col-4">
+        Ratio: 1
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="1"
+        />
+      </div>
+
+      <div class="col-4">
+        Ratio: 4/3
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="4/3"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="q-pa-md">
+    <div class="q-col-gutter-md row items-start">
+      <div class="col-4">
+        Ratio: 16/9
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="16/9"
+        />
+      </div>
+
+      <div class="col-4">
+        Ratio: 1
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="1"
+        />
+      </div>
+
+      <div class="col-4">
+        Ratio: 4/3
+        <q-img
+          src="https://picsum.photos/500/300"
+          :ratio="4/3"
+        />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
